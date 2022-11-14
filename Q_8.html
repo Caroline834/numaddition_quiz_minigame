@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="Q_8.css">
+    <script src="Q_8.js"></script>
+</head>
+
+<body onload="">
+    <div class="heading">
+        <span>Score:</span>
+        <span id="score">0</span>
+
+        <button id="btnstart" onclick="start()" class="btnstart activestart">Start</button>
+        <span>time:</span>
+        <span id="time">0</span>
+    </div>
+
+    <fieldset class="question">
+        <span id="quiz"></span>
+    </fieldset>
+
+    <div>
+        <span>
+            <button id="square1" class="square" onclick="checksquare1()"></button>
+            <button id="square2" class="square" onclick="checksquare2()"></button>
+            <button id="square3" class="square" onclick="checksquare3()"></button>
+        </span>
+    </div>
+    <div>
+
+        <button id="btnstop" class="btnstop inactivestop" onclick="stop()">Stop</button>
+    </div>
+    <div><b>History</b>
+        <ol id="list"></ol>
+    </div>
+</body>
+
+</html>

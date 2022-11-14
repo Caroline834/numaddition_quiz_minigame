@@ -1,0 +1,61 @@
+* {
+  margin-left: 40px;
+  font-style: bold;
+  font-size: larger;
+}
+.heading {
+    word-spacing: 60px;
+}
+
+.btnstart {
+  background-color: rgb(9, 181, 9);
+  color: white;
+  width: 200px;
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+  margin: 20px 40px 20px 40px;
+}
+
+.btnstop {
+  background-color: grey;
+  color: white;
+  width: 200px;
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+  margin-left:  380px;
+}
+
+.tb {
+  height: 200px;
+  width: 200px;
+  border-spacing: 50px;
+  margin-left: 100px;
+}
+.cell {
+  color: white;
+  font-size: 50px;
+  background-color: rgb(47, 47, 253);
+  border-style: solid;
+  border-radius: 15px;
+  
+  padding: 70px 30px 70px 30px;
+}
+.inactivestart {
+  background-color: grey;
+}
+.activestop {
+  background-color: red;
+}
+
+.question {
+    width:300px ;
+    margin-left: 300px;
+    ;
+}
+.square {
+  background-color: rgb(47, 47, 253);
+  height: 200px;
+  width: 200px;
+  border-radius: 15px;
+  margin: 50px 0px 50px 80px;
+}
